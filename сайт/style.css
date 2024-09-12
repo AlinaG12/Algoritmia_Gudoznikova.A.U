@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+     font-family: "IBM Plex Sans", sans-serif;
+     background: url("https://espartos.ru/upload/resize_cache/iblock/1d1/kn43t4vrjjrfp5x70wag7zm87ukn9gy7/400_9999_1/ST%200701.jpg")
+     
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+     
+    .container {
+        width: 800px;
+        min-height: 600px;
+        border: 10px solid #fff;
+        margin: 100px auto;
+        background: #fff;
+    } 
+    
+    .header {
+        display: flex;
+        height: 150px;
+        
+    }
+    
+    .title-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 100%;
+        font-size: 15px;
+        background: url("https://images.unsplash.com/photo-1517134191118-9d595e4c8c2b?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" );
+        color: #fff;
+    }
+    
+    .userpic {
+        display: flex;
+        height: 100%;
+        width: 20%;
+        background: url("https://static.vecteezy.com/system/resources/previews/001/993/889/original/beautiful-latin-woman-avatar-character-icon-free-vector.jpg") no-repeat center center / cover;
+    }
+    
+    .nav ul {
+        display: flex;
+        background: #cccccc;
+        margin: 10px 0;
+    }
+    
+    
+    .nav li a {
+        display: flex;
+        padding: 20px;
+        text-decoration: none;
+        color: #404040 ;
+        font-weight: bold;
+        border-right: 1px solid #b3b3b3;
+        transition: background .3s ease;
+    }
+    
+    .nav li a:hover {
+        background: #999999;
+    }
+    
+    .content-wrapper {
+        display: flex;
+    }
+    
+    .nav li p {
+        font-weight: bold;
+    }
