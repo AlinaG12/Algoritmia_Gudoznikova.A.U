@@ -1,1 +1,1 @@
-https://shovel228.yougile.com
+https://ru.yougile.com/board/mv1mdpsqq04d
